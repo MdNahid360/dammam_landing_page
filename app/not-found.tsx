@@ -38,7 +38,7 @@ export default function NotFound() {
               className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
             >
               <Icons.phone className="w-5 h-5" />
-              0554268296
+              +996540858851
             </a>
             <a
               href="https://wa.me/966554268296"

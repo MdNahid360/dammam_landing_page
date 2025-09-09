@@ -4,7 +4,7 @@ import { ArrowLeft, ChevronLeft } from "lucide-react"
 import { Blog, Service } from "@/types";
 
 export const metadata: Metadata = {
-  title: " 0554268296 مشتري مكيفات الهواء الخردة في الدمام",
+  title: " +996540858851 مشتري مكيفات الهواء الخردة في الدمام",
   description:
     "تصفح خريطة الموقع للوصول بسهولة إلى جميع صفحات وخدمات مشتري مكيفات الهواء الخردة، بما في ذلك شراء المكيفات المستعملة وسكراب المكيفات والمعادن في الدمام وجميع مدن المنطقة الشرقية.",
   icons: "/favicon.ico",

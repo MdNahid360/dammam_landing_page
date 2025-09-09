@@ -24,6 +24,6 @@ export const API_ENDPOINTS = {
 };
 
 export const siteConfig = {
-  phone: "0554268296",
+  phone: "+996540858851",
   email: "dammamathathmukayfat@gmail.com",
 };

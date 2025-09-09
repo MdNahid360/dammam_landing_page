@@ -55,10 +55,10 @@ export function Footer() {
                     {siteConfig.phone}
                   </span>
                 </div>
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-white" />
                   <span className="text-gray-300">{siteConfig.email}</span>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -72,7 +72,7 @@ export function Footer() {
                 {navigationLinks.map((link) => (
                   <li key={link.href}>
                     <Link
-                      href={link.href}
+                      href={"#"}
                       className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block"
                     >
                       {link.name}
@@ -96,7 +96,7 @@ export function Footer() {
                 ].map((service) => (
                   <li key={service.href}>
                     <Link
-                      href={service.href}
+                      href={"#"}
                       className="text-gray-300 hover:text-white transition-all duration-300 hover:translate-x-2 inline-block group"
                     >
                       <span className="border-b border-transparent group-hover:border-white transition-all duration-300">
@@ -116,13 +116,13 @@ export function Footer() {
               </div>
               <div className="space-y-4">
                 <Link
-                  href={socialLinks.phone}
+                  href={"#"}
                   className="block w-full bg-white text-primary text-center py-3 px-4 font-bold hover:bg-gray-100 transition-all duration-300 hover:scale-105"
                 >
                   اتصل الآن
                 </Link>
                 <Link
-                  href={socialLinks.whatsapp}
+                  href={"#"}
                   className="block w-full border-2 border-white text-white text-center py-3 px-4 font-bold hover:bg-white hover:text-primary transition-all duration-300 hover:scale-105"
                 >
                   واتساب
@@ -143,10 +143,10 @@ export function Footer() {
             </div>
 
             <div className="flex items-center gap-6">
-              <Link href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors text-sm">
+              <Link href="#" className="text-gray-300 hover:text-white transition-colors text-sm">
                 سياسة الخصوصية
               </Link>
-              <Link href="/terms" className="text-gray-300 hover:text-white transition-colors text-sm">
+              <Link href="#" className="text-gray-300 hover:text-white transition-colors text-sm">
                 الشروط والأحكام
               </Link>
             </div>
