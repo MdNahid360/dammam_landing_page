@@ -16,28 +16,29 @@ export function FloatingActions() {
             <div className="flex flex-col gap-3">
               <Link
                 rel="noopener noreferrer"
-                href={socialLinks.whatsapp}
+                href={"#"}
                 className="w-8 h-8 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center  hover:scale-[1.2] duration-300 transition-all"
               >
                 <Icons.whatsapp className="w-4 h-4" />
               </Link>
               <Link
                 rel="noopener noreferrer"
-                href={socialLinks.phone}
+                href={"#"}
                 className="w-8 h-8 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center  hover:scale-[1.2] duration-300 transition-all"
               >
                 <Icons.phone className="w-4 h-4" />
               </Link>
               <Link
                 rel="noopener noreferrer"
-                href={socialLinks.instagram}
+                href={"#"}
                 className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 rounded-full flex items-center justify-center  hover:scale-[1.2] duration-300 transition-all"
               >
                 <Icons.instagram className="w-4 h-4" />
               </Link>
               <Link
                 rel="noopener noreferrer"
-                href={socialLinks.facebook}
+                // href={socialLinks.facebook}
+                href={"#"}
                 className="w-8 h-8 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center  hover:scale-[1.2] duration-300 transition-all"
               >
                 <Icons.facebook className="w-4 h-4" />

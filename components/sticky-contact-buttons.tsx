@@ -30,7 +30,7 @@ export default function StickyContactButtons() {
       )}
     >
       <Link
-        href="tel:+966 55 236 0301"
+        href="#"
         className={cn(
           "w-12 h-12 rounded-full bg-green-500 text-white flex items-center justify-center shadow-lg hover:bg-green-600 transition-all hover:scale-110",
           "animate-pulse-subtle",
@@ -43,7 +43,7 @@ export default function StickyContactButtons() {
         <Phone className="h-5 w-5" />
       </Link>
       <Link
-        href="https://wa.me/+966552360301"
+        href="#"
         target="_blank"
         rel="noopener noreferrer"
         className={cn(
@@ -58,7 +58,7 @@ export default function StickyContactButtons() {
         <Icons.whatsapp className="h-5 w-5 text-white fill-white" />
       </Link>
       <Link
-        href="https://www.instagram.com/sorikah_abdullah_transport"
+        href="#"
         target="_blank"
         rel="noopener noreferrer"
         className={cn(
@@ -73,7 +73,7 @@ export default function StickyContactButtons() {
         <Instagram className="h-5 w-5" />
       </Link>
       <Link
-        href="https://x.com/MdBablu40537774?t=zP8r8AYlt6sSUXxTqJIa4Q&s=09"
+        href="#"
         target="_blank"
         rel="noopener noreferrer"
         className={cn(
